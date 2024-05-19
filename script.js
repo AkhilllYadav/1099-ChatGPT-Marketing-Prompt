@@ -54,5 +54,5 @@ function showRandomPurchaseAlert() {
 setInterval(showRandomPurchaseAlert, 5000);
 
 function redirectToPurchase() {
-    window.location.href = 'https://www.example.com'; // Replace with your desired URL
+    window.location.href = 'https://forms.gle/Uj6ifVUeLgKFreZr7'; // Replace with your desired URL
 }
