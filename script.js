@@ -52,3 +52,7 @@ function showRandomPurchaseAlert() {
 
 // Show a purchase alert every 3 seconds
 setInterval(showRandomPurchaseAlert, 5000);
+
+function redirectToPurchase() {
+    window.location.href = 'https://www.example.com'; // Replace with your desired URL
+}
