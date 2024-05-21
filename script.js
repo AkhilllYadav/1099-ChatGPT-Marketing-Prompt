@@ -1,4 +1,5 @@
-window.onscroll = function() { myFunction() };
+
+window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
@@ -11,9 +12,9 @@ function myFunction() {
   }
 }
 
-document.querySelector('.buy-button').addEventListener('click', function() {
-  alert('Thank you for your purchase!');
-});
+// document.querySelector('.buy-button').addEventListener('click', function() {
+//   alert('Thank you for your purchase!');
+// });
 
 // List of user names
 const names = [
@@ -26,9 +27,9 @@ const names = [
 // List of locations
 const locations = [
   'Mumbai', 'Delhi', 'Bangalore', 'Hyderabad', 'Chennai', 
-  'Kolkata', 'Pune', 'Ahmedabad', 'Jaipur', 'Surat', 
-  'Lucknow', 'Kanpur', 'Nagpur', 'Patna', 'Indore', 
-  'Thane', 'Bhopal', 'Visakhapatnam', 'Vadodara', 'Firozabad'
+    'Kolkata', 'Pune', 'Ahmedabad', 'Jaipur', 'Surat', 
+    'Lucknow', 'Kanpur', 'Nagpur', 'Patna', 'Indore', 
+    'Thane', 'Bhopal', 'Visakhapatnam', 'Vadodara', 'Firozabad'
 ];
 
 // Function to show random purchase alerts
@@ -45,13 +46,9 @@ function showRandomPurchaseAlert() {
 
   // Automatically remove notifications after 5 seconds
   setTimeout(function() {
-    notification.remove();
+      notification.remove();
   }, 5000);
 }
 
-// Show a purchase alert every 5 seconds
+// Show a purchase alert every 3 seconds
 setInterval(showRandomPurchaseAlert, 5000);
-
-// function redirectToPurchase() {
-//   window.location.href = 'https://forms.gle/Uj6ifVUeLgKFreZr7'; // Replace with your desired URL
-// }
