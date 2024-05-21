@@ -52,6 +52,6 @@ function showRandomPurchaseAlert() {
 // Show a purchase alert every 5 seconds
 setInterval(showRandomPurchaseAlert, 5000);
 
-function redirectToPurchase() {
-  window.location.href = 'https://forms.gle/Uj6ifVUeLgKFreZr7'; // Replace with your desired URL
-}
+// function redirectToPurchase() {
+//   window.location.href = 'https://forms.gle/Uj6ifVUeLgKFreZr7'; // Replace with your desired URL
+// }
