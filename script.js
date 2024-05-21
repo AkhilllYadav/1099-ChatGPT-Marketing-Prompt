@@ -12,10 +12,6 @@ function myFunction() {
   }
 }
 
-// document.querySelector('.buy-button').addEventListener('click', function() {
-//   alert('Thank you for your purchase!');
-// });
-
 // List of user names
 const names = [
   'Aditya', 'Neha', 'Rahul', 'Priya', 'Aarav', 
