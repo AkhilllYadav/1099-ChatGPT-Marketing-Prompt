@@ -43,8 +43,8 @@ function showRandomPurchaseAlert() {
   // Automatically remove notifications after 5 seconds
   setTimeout(function() {
       notification.remove();
-  }, 5000);
+  }, 3000);
 }
 
 // Show a purchase alert every 3 seconds
-setInterval(showRandomPurchaseAlert, 5000);
+setInterval(showRandomPurchaseAlert, 3000);
